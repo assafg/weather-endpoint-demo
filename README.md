@@ -1,0 +1,1 @@
+A monorepo for Apollo-Graphql talk / Workshop

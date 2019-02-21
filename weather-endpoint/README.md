@@ -1,0 +1,1 @@
+Simple Graphql weather endpoint
