@@ -11,15 +11,7 @@ class App extends Component {
     handleClick = () => this.setState({ code: this.state.value });
 
     render() {
-        return (
-            <div>
-                <div className="searchBar">
-                    <input onChange={this.handleInputChange} />
-                    <button onClick={this.handleClick}>Go</button>
-                </div>
-                <CountriesContainer code={this.state.code} />
-            </div>
-        );
+        return <CountriesContainer code={this.state.code} />;
     }
 }
 
