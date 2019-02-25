@@ -29,6 +29,7 @@ const getCountry = async ({ code }) => {
 
     // Map the returned data to desired schema
     return {
+        id: jsonData.alpha2Code,
         name: jsonData.name,
         code: jsonData.alpha2Code,
         borders: jsonData.borders,

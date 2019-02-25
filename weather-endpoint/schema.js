@@ -13,6 +13,7 @@ const typeDefs = gql`
     }
 
     type Country {
+        id: String
         name: String
         code: String
         capital: String

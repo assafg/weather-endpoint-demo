@@ -3,6 +3,7 @@ import gql from 'graphql-tag';
 export default gql`
     query GetCountry($code: String) {
         getCountry(code: $code) {
+            id
             name
             code
             capital
@@ -13,6 +14,7 @@ export default gql`
                 icon
             }
             borders {
+                id
                 name
                 code
                 capital

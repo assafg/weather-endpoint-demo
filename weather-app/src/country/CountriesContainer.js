@@ -9,7 +9,7 @@ import './style.css';
 
 class CountriesContainer extends PureComponent {
     state = {
-        value: 'il',
+        value: null,
     };
 
     handleInputChange = evt => this.setState({ value: evt.target.value });
